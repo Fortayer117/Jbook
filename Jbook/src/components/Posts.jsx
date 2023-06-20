@@ -11,6 +11,7 @@ const Posts = () => {
             <Card key={key}>
               <img src={e.img} />
               <h1>{e.text}</h1>
+              <p>{e.price} DZD</p>
             </Card>
           );
         })}
@@ -22,6 +23,7 @@ const Posts = () => {
             <Card key={key}>
               <img src={e.img} />
               <h1>{e.text}</h1>
+              <p>{e.price} DZD</p>
             </Card>
           );
         })}
